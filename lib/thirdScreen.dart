@@ -43,7 +43,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
                   padding: const EdgeInsets.all(8.0),
                   child: Row(
                     children: [
-                      Image.asset(''),
+                      Image.asset('assets/google'),
                       SizedBox(width: 20,),
                       Center(child: Text('Continue with Google'))
                     ],
@@ -61,7 +61,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
                   padding: const EdgeInsets.all(8.0),
                   child: Row(
                     children: [
-                      Image.asset(''),
+                      Image.asset('assets/facebook.png'),
                       SizedBox(width: 20,),
                       Center(child: Text('Continue with Facebook'))
                     ],

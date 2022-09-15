@@ -28,6 +28,37 @@ class _splashState extends State<splash> {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Colors.green,
+      body: Row(
+        children: [
+          Image.asset(''),
+          SizedBox(width: 5,),
+          Center(
+
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                    'nectar',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                    fontSize: 30
+                  ),
+                ),
+                Text(
+                  'online groceriets',
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                      fontSize: 30
+                  ),
+                ),
+              ],
+            ),
+          )
+        ],
+      ),
 
     );
   }
